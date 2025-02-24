@@ -28,7 +28,10 @@
 #include <stdio.h>
 int main() {
    int a = 1, b = 2;
-   int x = 0, y = a * b; // Initialize x explicitly
+   int x = 0, y = a * b;             // Initialize x explicitly
    printf("%d, %d", x, y);
+
+   int  k = 35 ; 
+   printf ( "\n%d %d %d", k == 35, k = 50, k > 40 ) ;
    return 0;
 }
