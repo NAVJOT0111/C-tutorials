@@ -8,7 +8,7 @@ int main(){
         printf("This character is lowercase");
      }
      else{
-        printf("This character is uppercase");
+        printf("This character is not lowercase");
      }
      return 0;
 }
