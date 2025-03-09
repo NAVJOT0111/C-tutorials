@@ -6,9 +6,17 @@ int main(){
      printf("ENter a no. : ");
      scanf("%d", &n);
 
-     for(n; n; n--){
+    //  for(n; n; n--){
+    //     p *= n;
+    //  }
+
+
+    while(n){
         p *= n;
-     }
-     printf("%d",p);
+        n--;
+    }
+
+    printf("%d",p);
+
      return 0;
 }
