@@ -6,40 +6,35 @@ int main(){
      printf("ENter the number of elements in array A: ");
      scanf("%d", &n);
 
-     int arr[n];
+     int A[n];
      printf("ENter the values of A: ");
      for(i = 0; i<n; i++){
-        scanf("%d",&arr[i]);
+        scanf("%d",&A[i]);
      }
 
      printf("ENter the number of elements in array B: ");
      scanf("%d", &m);
 
-     int arr[m];
+     int B[m];
      printf("ENter the values of B: ");
      for(i = 0; i<m; i++){
-        scanf("%d",&arr[i]);
+        scanf("%d",&B[i]);
      }
 
+     // adding all the eelments of A
      int C[n + m], k = 0;
-
-     
-
      for(i = 0; i<n; i++){
-        for(j = 0 ; j<m; j++){
-            if(arr[i] == arr[j]){
-                Distinct = 0;
-                printf("%d", arr[i]);
-            }
+        C[k++] = A[i];
+     }
+
+     // elements of B that are not in A
+     for(i=0; i<n ; i++){
+        int exists = 0;
+        for(j=0; j<m ; j++){
+            // if()
         }
      }
 
-     if(Distinct == 1){
-        printf("All the elements are distinct");
-     } else{
-        printf("All the elements are not distinct");
-     }
-
-
      return 0;
 }
+
