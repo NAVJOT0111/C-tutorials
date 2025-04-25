@@ -21,7 +21,7 @@ int main(){
      printf("Do you want to enter another number? (y/n): ");
      scanf(" %c", &choice);
      if (choice == "n"){
-        break;
+        // break;
      }
 
      printf("\nCount of positive numbers: %d\n", positive);
