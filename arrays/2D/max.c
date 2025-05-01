@@ -2,16 +2,12 @@
 #include <stdio.h>
 
 int main() {
-    int rows, columns;
-
-    // Input size of the 2D array
-    printf("Enter the number of rows: ");
-    scanf("%d", &rows);
-    printf("Enter the number of columns: ");
-    scanf("%d", &columns);
-
-    int arr[rows][columns];
-    int i, j;
+    int rows = 3,columns = 3,i,j;
+    int arr[3][3] = {
+        {3, 7, 1},
+        {9, 2, 8},
+        {4, 5, 6}
+    };
 
     // Input elements of the array
     printf("Enter elements of the array:\n");
