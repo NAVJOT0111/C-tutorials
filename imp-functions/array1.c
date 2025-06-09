@@ -18,7 +18,6 @@
 //     return 0;
 
 
-
 // // sum of array
 // #include <stdio.h>
 // int main(){
@@ -35,7 +34,6 @@
 // // take the size of array as input
 // #include <stdio.h>
 // int main(){
-
 //     int n, i;
 //     scanf("%d",&n);
 //     int arr[n];

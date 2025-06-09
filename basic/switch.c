@@ -24,27 +24,24 @@
 //      return 0;
 // }
 
-#include <stdio.h> 
 
+#include <stdio.h> 
 int main(){
     // char   a ; 
     // int   y ; 
     // scanf ( "%c", &a ) ; 
     // y = ( a >= 65 && a <= 90 ? 1 : 0 ) ; 
     // printf("%d", y);
-
-
     
         int x = 10, y = 15; 
         if (x % 2 == y % 3) 
            printf("\nCarpathians");
     
-    
      return 0;
 }
 
-#include <stdio.h> 
 
+#include <stdio.h> 
 int main(){
      int a;
      printf("Enter a: ");

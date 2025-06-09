@@ -19,20 +19,20 @@
 // }
 
 
-// #include <stdio.h>
-// int main(){
-//     int a = 10, b = -4;
-//     if(b=5)
-//     b = a+b;
-//     else
-//     b = a-b;
-//     a =10;
-//     printf("\n a=%d b =%d, ++a, b++");
-// }
-
-
 #include <stdio.h>
 int main(){
-    int a = 2;
-    if (a == (1,2))
+    int a = 10, b = -4;
+    if(b=5)
+    b = a+b;
+    else
+    b = a-b;
+    a =10;
+    printf("\n a=%d b =%d, ++a, b++");
 }
+
+
+// #include <stdio.h>
+// int main(){
+//     int a = 2;
+//     if (a == (1,2))
+// }

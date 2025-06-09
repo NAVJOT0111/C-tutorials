@@ -1,11 +1,19 @@
 #include <stdio.h> 
 
+// without recursion
+// int factorial(int n){
+//     int fact = 1,i;
+//     for( i=2; i<=n; i++){
+//         fact = fact*i;
+//     }
+//     return fact;
+// }
+
+// with recursion
 int factorial(int n){
-    int fact = 1;
-    for(int i=2; i<=n; i++){
-        fact = fact*i;
-    }
-    return fact;
+    if(n == 1 || n==0) return 1;
+    int reAns =  n*factorial(n-1);
+    return reAns;
 }
 
 int main(){

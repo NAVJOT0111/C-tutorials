@@ -1,11 +1,3 @@
-// #include <stdio.h>    
-// int main() {
-//    int a;
-//    a = 10;
-//    printf("a is %d",a);
-//    return 0;
-// }
-  
 
 // #include <stdio.h>  // it's called preprocessor directive
 // int main(){
